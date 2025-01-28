@@ -75,7 +75,7 @@ alias update-system="/home/silas/Programs/update-system.sh"
 
 
 
-bindkey -e
+
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/silas/.zshrc'
