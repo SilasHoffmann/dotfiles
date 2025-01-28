@@ -1,0 +1,70 @@
+#Config Documentation: https://alacritty.org/config-alacritty.html
+
+
+
+[window]
+dimensions={columns=150, lines=31}
+title="" #Default: "Alacritty"
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+#opacity = 0.5
+
+
+
+[scrolling]
+history=100000
+
+
+
+[font]
+#size=11.25 #Default: 11.25
+#offset = {x=0, y=0} #Default: {x=0, y=0}
+
+normal = { family = "JetBrainsMono Nerd Font Mono", style = "Regular" }
+bold = { family = "JetBrainsMono Nerd Font Mono", style = "Bold" }
+italic = { family = "JetBrainsMono Nerd Font Mono", style = "Italic" }
+bold_italic = { family = "JetBrainsMono Nerd Font Mono", style = "Bold Italic" }
+
+
+
+
+
+
+[cursor]
+style={shape="Beam", blinking="On"}
+blink_interval=500
+blink_timeout=0
+unfocused_hollow=true
+
+
+[terminal]
+#shell="/bin/zsh" #Specify Shell; Default: default user shell
+
+
+[mouse]
+#hide_when_typing=true
+
+
+[[hints.enabled]]
+command = "xdg-open"
+hyperlinks = true
+post_processing = true
+persist = true
+mouse.enabled = true
+binding = { key = "O", mods = "Control|Shift" }
+regex = "(ipfs:|ipns:|magnet:|mailto:|gemini://|gopher://|https://|http://|news:|file:|git://|ssh:|ftp://)[^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩`]+"
+
+
+
+
+
+[keyboard]
+bindings=[
+
+{key = "N", mods = "Control", action = "CreateNewWindow"},
+{key="Q", mods="Control", action="Quit"},
+{key="F11", action="ToggleFullscreen"},
+{key="PageUp", action="ScrollPageUp"},
+{key="PageDown", action="ScrollPageDown"}
+
+]

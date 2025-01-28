@@ -1,0 +1,44 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+#Eine neue Zeile vor jedem neuen Promt einfügen
+add_newline = true
+
+
+
+
+
+format = """
+$username \
+@\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_status\
+$git_metrics\
+$fill\
+$cmd_duration\
+$line_break\
+$character"""
+
+[directory]
+truncation_length = 0
+truncation_symbol = '…/'
+truncate_to_repo = true
+home_symbol = " 🏠"
+
+
+[username]
+show_always = true
+format = "[$user]($style)"
+
+[character]
+success_symbol = "[❯](green)"
+error_symbol = "[❯](red)"
+
+[cmd_duration]
+min_time=1
+show_milliseconds=true
+
+[fill]
+style=' '
