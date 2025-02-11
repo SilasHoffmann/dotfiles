@@ -69,6 +69,11 @@ alias startkde="/usr/lib/plasma-dbus-run-session-if-needed /usr/bin/startplasma-
 #System-Update-Script ausführen
 alias update="/home/silas/Programs/update-system.sh"
 alias update-system="/home/silas/Programs/update-system.sh"
+#Open manpages using bat
+alias batman="sh /home/silas/Programs/batman.sh"
+alias bm="sh /home/silas/Programs/batman.sh"
+
+
 
 
 
