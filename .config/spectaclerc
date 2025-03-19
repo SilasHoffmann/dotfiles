@@ -4,14 +4,18 @@ freehandShadow=false
 freehandStrokeWidth=3
 highlighterStrokeColor=85,170,0
 
+[FileDialogSize]
+2 screens: Height=576
+2 screens: Width=1024
+
 [General]
 clipboardGroup=PostScreenshotCopyImage
 showCaptureInstructions=false
 
 [ImageSave]
 imageFilenameTemplate=Screenshot_<H>:<m>:<s>_<d>.<M>.<yyyy>
-lastImageSaveAsLocation=file:///home/silas/Desktop/sddm-crash.png
-lastImageSaveLocation=file:///home/silas/Desktop/sddm-crash.png
+lastImageSaveAsLocation=file:///home/silas/Desktop/Steam Backups/tboi mods.png
+lastImageSaveLocation=file:///home/silas/Desktop/Steam Backups/tboi mods.png
 translatedScreenshotsFolder=Screenshots
 
 [VideoSave]

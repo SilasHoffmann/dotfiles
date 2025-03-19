@@ -6,5 +6,5 @@ sudo pacman -Syu
 echo "\nUpdating Flatpak applications:"
 flatpak update
 
-echo "\nCompleted all updates."
+echo -e " \nCompleted all updates."
 sleep 2
