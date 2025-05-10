@@ -67,8 +67,8 @@ _comp_options+=(globdots) #include hidden files in tab autocomplete
 alias startplasma="/usr/lib/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland"
 alias startkde="/usr/lib/plasma-dbus-run-session-if-needed /usr/bin/startplasma-wayland"
 #System-Update-Script ausführen
-alias update="/home/silas/Programs/update-system.sh"
-alias update-system="/home/silas/Programs/update-system.sh"
+#alias update="/home/silas/Programs/update-system.sh"
+#alias update-system="/home/silas/Programs/update-system.sh"
 #Open manpages using bat
 alias batman='man -P "bat -l man"'
 alias bm='man -P "bat -l man"'

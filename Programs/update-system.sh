@@ -3,8 +3,8 @@
 echo "Starting full system upgrade:"
 sudo pacman -Syu
 
-echo "\nUpdating Flatpak applications:"
+echo "Updating Flatpak applications:"
 flatpak update
 
-echo -e " \nCompleted all updates."
+echo -e "Completed all updates."
 sleep 2

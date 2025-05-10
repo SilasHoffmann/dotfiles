@@ -14,8 +14,8 @@ showCaptureInstructions=false
 
 [ImageSave]
 imageFilenameTemplate=Screenshot_<H>:<m>:<s>_<d>.<M>.<yyyy>
-lastImageSaveAsLocation=file:///home/silas/Desktop/Steam Backups/tboi mods.png
-lastImageSaveLocation=file:///home/silas/Desktop/Steam Backups/tboi mods.png
+lastImageSaveAsLocation=file:///home/silas/Desktop/Screenshot_20:1:19_5.5.2025.png
+lastImageSaveLocation=file:///home/silas/Desktop/Screenshot_20:1:19_5.5.2025.png
 translatedScreenshotsFolder=Screenshots
 
 [VideoSave]
