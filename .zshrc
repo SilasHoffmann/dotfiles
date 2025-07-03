@@ -12,6 +12,9 @@ PROMPT='%F{red}%n%F{yellow}@%F{green}%m%F{cyan}%F{blue}>%f '       #→
 export LS_COLORS="di=01;34:fi=01;32"
 alias ls='ls --color=auto'
 
+#config für irgendwelche Sachen
+export GREP_OPTIONS='--color=auto'
+export EDITOR=nano
 
 
 

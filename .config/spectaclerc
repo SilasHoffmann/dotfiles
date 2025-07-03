@@ -1,5 +1,5 @@
 [Annotations]
-annotationToolType=2
+annotationToolType=8
 freehandShadow=false
 freehandStrokeWidth=3
 highlighterStrokeColor=85,170,0
@@ -14,8 +14,8 @@ showCaptureInstructions=false
 
 [ImageSave]
 imageFilenameTemplate=Screenshot_<H>:<m>:<s>_<d>.<M>.<yyyy>
-lastImageSaveAsLocation=file:///home/silas/Desktop/Screenshot_20:1:19_5.5.2025.png
-lastImageSaveLocation=file:///home/silas/Desktop/Screenshot_20:1:19_5.5.2025.png
+lastImageSaveAsLocation=file:///home/silas/Desktop/Screenshot_23:1:44_9.6.2025.png
+lastImageSaveLocation=file:///home/silas/Pictures/Screenshots/Screenshot_21:46:30_11.6.2025.png
 translatedScreenshotsFolder=Screenshots
 
 [VideoSave]
